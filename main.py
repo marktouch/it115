@@ -16,6 +16,6 @@ with open('data.json', 'w') as json_file:
 
 print("data has been written to data.json")
 
-# 
+# opens a new json file where it'll store the key and value pairs
 with open('data.json','r') as json_file:
     loaded_data = json.load(json_file)
